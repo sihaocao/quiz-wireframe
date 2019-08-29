@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>National Dishes Quiz App Overall Results Screen</title>
+        <meta name="description" content="Test your national dish knowledge of countries around the world">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+        <style type="text/css">
+            img {
+                height: 125px;
+                width: 125px;
+            }
+            .overallResults {
+                display: block;
+                text-align: center;
+            }
+            button {
+                height: 30px;
+                width: 100px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="overallResults">
+            <div class="upperPart">
+                <div>
+                    <img src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/1st-place-medal.png" alt="gold medal">
+                </div>
+                <p>You Got <span class="score">5</span> out of 5 Questions Correct</p>
+                <p>Wow, You are a world foodie!</p>
+            </div>
+            <button class="tryAgain">TRY AGAIN?</button>
+        </div>
+        <hr>
+        <div class="overallResults">
+            <div class="upperPart">
+                <div>
+                    <img src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/2nd-place-medal.png" alt="silver medal">
+                </div>
+                <p>You Got <span class="score">3</span> out of 5 Questions Correct</p>
+                <p>Almost there, need to try more foods!</p>
+            </div>
+            <button class="tryAgain">TRY AGAIN?</button>
+        </div>
+        <hr>
+        <div class="overallResults">
+            <div class="upperPart">
+                <div>
+                    <img src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/3rd-place-medal.png" alt="bronze medal">
+                </div>
+                <p>You Got <span class="score">1</span> out of 5 Questions Correct</p>
+                <p>Hmm, it looks like you've got to expand your taste buds!</p>
+            </div>
+            <button class="tryAgain">TRY AGAIN?</button>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
